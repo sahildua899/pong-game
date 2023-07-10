@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login/ Signup</title>
+  <link rel="stylesheet" href="../css/style.css">
+  
+</head>
+<body>
+  <div class="wrapper">
+    <div class="title-text">
+      <div class="title login">Login Form</div>
+      <div class="title signup">Signup Form</div>
+    </div>
+    <div class="form-container">
+      <div class="slide-controls">
+        <input type="radio" name="slide" id="login" checked>
+        <input type="radio" name="slide" id="signup">
+        <label for="login" class="slide login">Login</label>
+        <label for="signup" class="slide signup">Signup</label>
+        <div class="slider-tab"></div>
+      </div>
+      <div class="form-inner">
+        <form action="#" class="login">
+          <div class="field">
+            <input type="email" placeholder="Email Address" required name="email">
+          </div>
+          <div class="field">
+            <input type="password" placeholder="Password" required name="password">
+          </div>
+          <div class="pass-link"><a href="/reset">Forgot password?</a></div>
+          <div class="field btn">
+            <div class="btn-layer"></div>
+            <input type="submit" value="Login">
+          </div>
+          <div class="signup-link">Not a member? <a href="">Signup now</a></div>
+        </form>
+        <form class="signup" id="signupForm" >
+          <div class="field">
+            <input type="text" placeholder="First Name" required name="firstName">
+          </div>
+          <div class="field">
+            <input type="text" placeholder="Last Name" required name="lastName">
+          </div>
+          <div class="field">
+            <input type="number" placeholder="Phone Number" required name="phone" >
+          </div>
+          <div class="field">
+            <input type="email" placeholder="Email Address" required name="email">
+          </div>
+          <div class="field">
+            <input type="password" placeholder="Password" required name="password">
+          </div>
+          <div class="field">
+            <input type="password" placeholder="Confirm password" required name="confirmpassword">
+          </div>
+          <div class="field btn">
+            <div class="btn-layer"></div>
+            <input type="submit" value="Signup">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="copyright">
+		Copyright 2023 &copy; Deveoped with ❤ By <a href="https://sahildua.in">Sahil Dua</a>
+		</div>
+  
+  <script src="../js/script.js"></script>
+  
+</body>
+</html>
